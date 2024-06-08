@@ -9,7 +9,7 @@ import PrivateRoute from './PrivateRoute'
 
 import Navbar from '../components/Navbar'
 import Footer from '../Pages/Footer'
-import FetchingData from '../Pages/FetchingData'
+
 
 export default function AllRoutes () {
   return (
@@ -53,7 +53,7 @@ export default function AllRoutes () {
           }
         />
       </Routes>
-      <FetchingData />
+     
       <Footer />
     </div>
   )
