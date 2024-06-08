@@ -1,0 +1,49 @@
+.navbar {
+
+  padding: 15px 0;
+}
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  display: inline-block;
+  margin-right: 20px;
+  position: relative;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.dropdown {
+  position: absolute;
+  top: 160%;
+  margin-left: -110px;
+  background-color: rgb(172, 172, 156);
+  /* min-width: 120px; */
+  display: none;
+  width: 1410px;
+  margin-top: 10px;
+}
+
+
+
+.nav-item:hover .dropdown {
+  display: block;
+}
+
+.dropdown > div > .first > h5{
+    margin-top: 10px;
+    color: teal;
+    font-size: 20px;
+}
+p{
+    margin-top: 20px;
+    font-size: 17px;
+}

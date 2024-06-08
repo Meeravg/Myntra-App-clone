@@ -1,0 +1,32 @@
+.nav {
+    
+    width: 550px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 20px;
+    /* border: 1px solid gray; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+}
+
+
+.grid {
+    width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+   
+}
+
+.grid > div {
+    margin-top: 40px;
+    width: 300px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.grid > div > img {
+    width: 100%;
+    height: 300px;
+}
