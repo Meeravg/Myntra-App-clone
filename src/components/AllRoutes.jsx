@@ -18,7 +18,11 @@ export default function AllRoutes () {
       <Routes>
         <Route path='/login' element={<Login />} />
 
-        <Route path='/men' element={<Men />} />
+        <Route path='/men' element={
+           
+          <Men />
+          
+          } />
 
         <Route
           path='/women'

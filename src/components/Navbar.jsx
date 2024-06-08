@@ -249,7 +249,7 @@ export default function Navbar () {
                 onMouseEnter={toggleBeautyDropdown}
                 onMouseLeave={toggleBeautyDropdown}
                 >
-                  <ChakraLink as={ReactRouterLink} to={'/beauty'}> WOMEN</ChakraLink>
+                  <ChakraLink as={ReactRouterLink} to={'/beauty'}> BEAUTY</ChakraLink>
                 {/* Dropdown content */}
                 {showBeautyDropdown && (
                   <div
