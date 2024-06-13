@@ -203,6 +203,7 @@ export default function Navbar () {
                         <p> Formal</p>
                         <p> Sweat</p>
                         <p> Skirts</p>
+
                       </div>
                       <div className='first'>
                         <h5>Footwere</h5>
@@ -215,6 +216,7 @@ export default function Navbar () {
                         <p> Sandals</p>
                         <p> FlipFlop</p>
                         <p> Formal</p>
+                        <p>Track Shooes</p>
                       </div>
                       <div className='first'>
                         <h5>Jewellery</h5>
